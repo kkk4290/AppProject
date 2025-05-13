@@ -1,3 +1,37 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Android build
+/build/
+/app/build/
+/.gradle/
+/.idea/
+
+# Local configuration
+local.properties
+
+# Log and temp files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# JetBrains IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Signing keys
+*.jks
+*.keystore
+
+# APKs and outputs
+*.apk
+*.ap_
+
+# Kotlin compile cache
+.kotlinc/
+
+# Backup files
+*~
+*.bak
