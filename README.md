@@ -1,24 +1,70 @@
-# AppProject
+# SmartCage - 스마트 파충류 사육장 관리 앱 🦎📱
 
-<br>
+SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한 안드로이드 기반 애플리케이션입니다.  
+블루투스를 통해 사육장에 부착된 임베디드 장치(라즈베리 파이 등)와 연동하여 온도, 습도, 급여 기록 등을 실시간으로 모니터링하고 제어할 수 있습니다.
 
-### 작품제목
-- 스마트 파충류 케이지 애플리케이션
 ---
-<br>
 
-### 작품설명
-- 스마트 파충류 케이지 애플리케이션으로 **라즈베리 파이**와 연동하여 휴대폰으로 쉽게 케이지의 상태를 점검하고, 온도 및 습도 그리고 먹이 주기를 설정할 수 있다.
+## 🎯 주요 기능
+
+- 📡 **Bluetooth 연동**: 최초 실행 시 기기 검색 및 페어링
+- 🌡 **실시간 모니터링**: 온도/습도/마지막 급여시간을 AirCard 형태로 표시
+- 🔧 **자동 제어 설정**: 주야간 온습도 목표치 설정 및 자동 제어 여부 토글
+- 📊 **2주 기록 그래프**: 온도 및 습도 이력을 일자별로 시각화
+- 🚀 **사용자 설정 저장**: SharedPreferences로 사육장 이름, 자동 설정 등 저장
+- 🖼 **깔끔한 UI**: ViewPager2, CardView, MPAndroidChart 등을 활용한 직관적 인터페이스
+
 ---
-<br>
 
-### 작품사진
+## 🛠 기술 스택
+
+| 분류 | 기술 |
+|------|------|
+| Language | Java |
+| Framework | Android SDK |
+| Bluetooth | Android BluetoothAdapter |
+| UI | ConstraintLayout, LinearLayout, ViewPager2, MPAndroidChart |
+| Architecture | Single-Activity, Multi-Fragment 구조 |
+| Local Storage | SharedPreferences |
+| Animation / UX | Ripple Drawable, Long Press Detection, Vibrator API |
+
+---
+
+## 📁 프로젝트 구조
+```
+SmartCage/
+├── app/
+│ ├── src/main/java/com/example/bluelinktest/
+│ │ ├── MainActivity.java
+│ │ ├── DashboardFragment.java
+│ │ ├── BluetoothPairingFragment.java
+│ │ ├── SettingFragment.java
+│ │ └── LogFragment.java
+│ ├── res/
+│ │ ├── layout/
+│ │ ├── drawable/
+│ │ └── values/
+└── README.md
+```
+---
+
+## 📷 스크린샷
+
 <p>
   <img src="./introduce1.png" alt="image1" width="20%">
   <img src="./introduce2.png" alt="image2" width="20%">
 </p>
 
+
 ---
+
+## 📦 향후 개선 사항
+
+- 클라우드 연동 (Firebase 등)
+- 사용자 계정/다중 사육장 관리
+- 영상 스트리밍 및 원격 제어 추가
+
+
 
 <br>
 
