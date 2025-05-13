@@ -35,13 +35,26 @@ SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한
 SmartCage/
 ├── app/
 │ ├── src/main/java/com/example/bluelinktest/
-│ │ ├── MainActivity.java
-│ │ ├── DashboardFragment.java
+| | ├── AirCard.java
+| | ├── AirCardAdapter.java
+| | ├── AirMod.java
+| | ├── AirModAdpater.java
 │ │ ├── BluetoothPairingFragment.java
-│ │ ├── SettingFragment.java
-│ │ └── LogFragment.java
+│ │ ├── DashboardFragment.java
+│ │ ├── HorizontalMarginItemDecoration.java
+│ │ ├── LogFragment.java
+│ │ ├── MainActivity.java
+│ │ └── SettingFragment.java
 │ ├── res/
 │ │ ├── layout/
+| | | ├── activity_main.xml
+| | | ├── bottom_nav_bar.xml
+| | | ├── fragment_bluetooth_pairing.xml
+| | | ├── fragment_dashboard.xml
+| | | ├── fragment_log.xml
+| | | ├── fragment_setting.xml
+| | | ├── item_air_card.xml
+| | | └── setting_slider_control.xml
 │ │ ├── drawable/
 │ │ └── values/
 └── README.md
