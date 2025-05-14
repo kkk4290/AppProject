@@ -1,7 +1,14 @@
 # SmartCage - 스마트 파충류 사육장 관리 앱 🦎📱
 
-SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한 안드로이드 기반 애플리케이션입니다.  
-블루투스를 통해 사육장에 부착된 임베디드 장치(라즈베리 파이 등)와 연동하여 온도, 습도, 급여 기록 등을 실시간으로 모니터링하고 제어할 수 있습니다.
+<table>
+  <tr>
+    <td width="120px"><img src="./appicon.png" width="100"></td>
+    <td>
+      SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한 안드로이드 기반 애플리케이션입니다.
+      블루투스를 통해 사육장에 부착된 임베디드 장치(라즈베리 파이 등)와 연동하여 온도, 습도, 급여 기록 등을 실시간으로 모니터링하고 제어할 수 있습니다.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -66,11 +73,11 @@ SmartCage/
 ## 📷 스크린샷
 
 <p>
-  <img src="./introduce1.png" alt="image1" width="20%">
-  <img src="./introduce2.png" alt="image2" width="20%">
-  <img src="./introduce3.png" alt="image2" width="20%">
-  <img src="./introduce4.png" alt="image2" width="20%">
-  <img src="./introduce5.png" alt="image2" width="20%">
+  <img src="./introduce1.png" alt="image1" width="15%">
+  <img src="./introduce2.png" alt="image2" width="15%">
+  <img src="./introduce3.png" alt="image3" width="15%">
+  <img src="./introduce4.png" alt="image4" width="15%">
+  <img src="./introduce5.png" alt="image5" width="15%">
 </p>
 
 
