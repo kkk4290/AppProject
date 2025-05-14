@@ -74,8 +74,8 @@ SmartCage/
 
 <p>
   <img src="./introduce1.png" alt="image1" width="15%">
-  <img src="./introduce2.png" alt="image2" width="15%">
   <img src="./introduce3.png" alt="image3" width="15%">
+  <img src="./introduce2.png" alt="image2" width="15%">
   <img src="./introduce4.png" alt="image4" width="15%">
   <img src="./introduce5.png" alt="image5" width="15%">
 </p>
