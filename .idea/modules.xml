@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/BlueLinkTest 0506.iml" filepath="$PROJECT_DIR$/.idea/BlueLinkTest 0506.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/SmartCage0514.iml" filepath="$PROJECT_DIR$/.idea/SmartCage0514.iml" />
+>>>>>>> 647d1f7 (수정)
     </modules>
   </component>
 </project>

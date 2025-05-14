@@ -3,7 +3,7 @@
   <component name="ProjectMigrations">
     <option name="MigrateToGradleLocalJavaHome">
       <set>
-        <option value="$PROJECT_DIR$/BlueLinkTest/BlueLinkTest" />
+        <option value="$PROJECT_DIR$/SmartCage/BlueLinkTest/BlueLinkTest" />
       </set>
     </option>
   </component>
