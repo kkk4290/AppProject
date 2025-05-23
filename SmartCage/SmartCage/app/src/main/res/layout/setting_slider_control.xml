@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="4dp">
+
+    <!-- 값 -->
+    <TextView
+        android:id="@+id/textValue"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="2400"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#000000" />
+
+    <!-- 슬라이더 -->
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:max="10000"
+        android:progress="2400"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- 단위 텍스트 -->
+    <TextView
+        android:id="@+id/textLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="공조시간 (s)"
+        android:textSize="14sp"
+        android:layout_marginEnd="8dp"
+        android:textColor="#333333" />
+
+    <!-- DOWN 버튼 -->
+    <ImageButton
+        android:id="@+id/btnDown"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_down"
+        android:background="@android:color/transparent"
+        android:contentDescription="Down" />
+
+    <!-- UP 버튼 -->
+    <ImageButton
+        android:id="@+id/btnUp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_arrow_up"
+        android:background="@android:color/transparent"
+        android:contentDescription="Up" />
+</LinearLayout>
