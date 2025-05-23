@@ -1,4 +1,4 @@
-package com.example.bluelinktest
+package com.example.smartcage
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

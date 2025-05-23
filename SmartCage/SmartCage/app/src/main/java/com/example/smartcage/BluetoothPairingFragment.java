@@ -1,4 +1,4 @@
-package com.example.bluelinktest;
+package com.example.smartcage;
 
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
@@ -14,6 +14,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
+
+import com.example.bluelinktest.R;
 
 public class BluetoothPairingFragment extends Fragment {
 
@@ -33,13 +35,12 @@ public class BluetoothPairingFragment extends Fragment {
         Button btnSkip = view.findViewById(R.id.btnSkip);
 
         btnStartPairing.setOnClickListener(v -> startBluetoothPairing());
-        btnSkip.setOnClickListener(v -> goToDashboard());
+        btnSkip.setOnClickListener(v -> goToWifiPairing());
 
-        // ✅ 앱이 이미 연결된 상태라면 자동으로 넘어가기
         SharedPreferences prefs = requireContext().getSharedPreferences("PairingPrefs", Context.MODE_PRIVATE);
         boolean isConnected = prefs.getBoolean("is_connected", false);
         if (isConnected) {
-            goToDashboard();
+            goToWifiPairing();
         }
 
         return view;
@@ -51,7 +52,6 @@ public class BluetoothPairingFragment extends Fragment {
             return;
         }
 
-        // 🔧 실제 연결 로직 대신 모의 성공 처리
         Toast.makeText(getContext(), "기기 연결 성공!", Toast.LENGTH_SHORT).show();
 
         // 상태 저장
@@ -70,12 +70,20 @@ public class BluetoothPairingFragment extends Fragment {
 
 
         // 대시보드로 이동
-        goToDashboard();
+        goToWifiPairing();
+        //goToDashboard();
     }
 
-    private void goToDashboard() {
+    //    private void goToDashboard() {
+//        FragmentTransaction transaction = requireActivity().getSupportFragmentManager().beginTransaction();
+//        transaction.replace(R.id.fragment_container, new DashboardFragment());
+//        transaction.commit();
+//    }
+
+    // 기존 goToDashboard() → goToWifiPairing()
+    private void goToWifiPairing() {
         FragmentTransaction transaction = requireActivity().getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.fragment_container, new DashboardFragment());
+        transaction.replace(R.id.fragment_container, new WifiPairingFragment());
         transaction.commit();
     }
 

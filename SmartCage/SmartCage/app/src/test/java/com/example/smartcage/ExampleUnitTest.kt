@@ -1,4 +1,4 @@
-package com.example.bluelinktest
+package com.example.smartcage
 
 import org.junit.Test
 

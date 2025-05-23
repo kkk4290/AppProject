@@ -1,4 +1,4 @@
-package com.example.bluelinktest;
+package com.example.smartcage;
 
 import android.content.Context;
 import android.graphics.Rect;

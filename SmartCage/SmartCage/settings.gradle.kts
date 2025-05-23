@@ -20,6 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "BlueLinkTest"
+rootProject.name = "SmartCage"
 include(":app")
  
