@@ -1,7 +1,14 @@
 # SmartCage - 스마트 파충류 사육장 관리 앱 🦎📱
 
-SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한 안드로이드 기반 애플리케이션입니다.  
-블루투스를 통해 사육장에 부착된 임베디드 장치(라즈베리 파이 등)와 연동하여 온도, 습도, 급여 기록 등을 실시간으로 모니터링하고 제어할 수 있습니다.
+<table>
+  <tr>
+    <td width="120px"><img src="./appicon.png" width="100"></td>
+    <td>
+      SmartCage는 파충류 및 소형 동물의 사육 환경을 관리하기 위한 안드로이드 기반 애플리케이션입니다.
+      블루투스를 통해 사육장에 부착된 임베디드 장치(라즈베리 파이 등)와 연동하여 온도, 습도, 급여 기록 등을 실시간으로 모니터링하고 제어할 수 있습니다.
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -44,7 +51,8 @@ SmartCage/
 │ │ ├── HorizontalMarginItemDecoration.java
 │ │ ├── LogFragment.java
 │ │ ├── MainActivity.java
-│ │ └── SettingFragment.java
+│ │ ├── SettingFragment.java
+│ │ └── WifiPairingFragment.java
 │ ├── res/
 │ │ ├── layout/
 | | | ├── activity_main.xml
@@ -53,6 +61,7 @@ SmartCage/
 | | | ├── fragment_dashboard.xml
 | | | ├── fragment_log.xml
 | | | ├── fragment_setting.xml
+| | | ├── fragment_wifi_pairing.xml
 | | | ├── item_air_card.xml
 | | | └── setting_slider_control.xml
 │ │ ├── drawable/
@@ -64,8 +73,11 @@ SmartCage/
 ## 📷 스크린샷
 
 <p>
-  <img src="./introduce1.png" alt="image1" width="20%">
-  <img src="./introduce2.png" alt="image2" width="20%">
+  <img src="./introduce1.png" alt="image1" width="15%">
+  <img src="./introduce3.png" alt="image3" width="15%">
+  <img src="./introduce2.png" alt="image2" width="15%">
+  <img src="./introduce4.png" alt="image4" width="15%">
+  <img src="./introduce5.png" alt="image5" width="15%">
 </p>
 
 
@@ -73,14 +85,14 @@ SmartCage/
 
 ## 📦 향후 개선 사항
 
-- 클라우드 연동 (Firebase 등)
+- Firebase 클라우드 연동(예정)
 - 사용자 계정/다중 사육장 관리
 - 사용자 친화적 UI/UX 수정
 - 영상 스트리밍 및 원격 제어 추가
 
 ---
 
-## 📒 개발과정
+## 📒 개발 과정
 
 | 날짜 | 한 일 | 완료여부 |
 | --- | --- | --- |
@@ -88,4 +100,6 @@ SmartCage/
 | 0429| 메인 화면 UI 수정, 설정 화면 제작, 이 외 피드백 적용 수정 | ✅ |
 | 0506| 로그 화면 제작, 블루투스 페어링 화면 제작, 이 외 피드백 적용 수정 | ✅ |
 | 0513| 로그 화면 UI 수정, 블루투스 페어링 화면 UI 수정, 이 외 피드백 적용 수정 | ✅ |
-| 0520 | - | ❌ |
+| 0520 | 아두이노-앱 클라우드 연동(예정) | ❌ |
+| 0527 |  | ❌ |
+| 0603 |  | ❌ |
