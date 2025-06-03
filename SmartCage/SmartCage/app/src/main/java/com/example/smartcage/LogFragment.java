@@ -45,13 +45,20 @@ public class LogFragment extends Fragment {
         LineChart temperatureChart = view.findViewById(R.id.chartTemperature);
         LineChart humidityChart = view.findViewById(R.id.chartHumidity);
 
-        setupChart(temperatureChart, "°C", 18f, 40f, 3f,
-                generateFakeData(25f, 35f),  // 주간 온도
-                generateFakeData(22f, 30f)); // 야간 온도
+        // 난수
+//        setupChart(temperatureChart, "°C", 18f, 40f, 3f,
+//                generateFakeData(25f, 35f),  // 주간 온도
+//                generateFakeData(22f, 30f)); // 야간 온도
+//
+//        setupChart(humidityChart, "%", 0f, 100f, 20f,
+//                generateFakeData(40f, 80f),  // 주간 습도
+//                generateFakeData(30f, 60f)); // 야간 습도
 
-        setupChart(humidityChart, "%", 0f, 100f, 20f,
-                generateFakeData(40f, 80f),  // 주간 습도
-                generateFakeData(30f, 60f)); // 야간 습도
+        temperatureChart.clear();
+        temperatureChart.invalidate();
+
+        humidityChart.clear();
+        humidityChart.invalidate();
 
         return view;
     }
